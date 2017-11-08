@@ -18,7 +18,7 @@ docker build -t centos6_python .
 
 #### For starting container use following command
 ```sh
-docker run -it centos6_python
+docker run -p 7080:8080 -it centos6_python
 ```
 
 #### Known Issue
