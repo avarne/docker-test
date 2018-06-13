@@ -26,7 +26,6 @@ RUN yum install -y mongodb-org
 #Expose mongo db ports to connect db remotely using Host Ip
 EXPOSE 27017
 
-
 # INSTALL MONGO DB 3.4 ENDS
 
 # INSTALL APACHE TOMCAT 7 STARTS
